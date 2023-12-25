@@ -1040,16 +1040,6 @@
                 {
                     return b / (1e3 / (t || 60))
                 },
-                wake: function wake()
-                {
-                    o && (!n && x() && (h = n = window, a = h.document ||
-                        {}, ot.gsap = Ce, (h.gsapVersions || (h.gsapVersions = []))
-                        .push(Ce.version), P(i || h.GreenSockGlobals || !h.gsap && h ||
-                        {}), m = h.requestAnimationFrame), p && g.sleep(), _ = m || function(t)
-                    {
-                        return setTimeout(t, 5 * 60 * 60 * 1000)
-                    }, d = 1, wl(2))
-                },
                 sleep: function sleep()
                 {
                     (m ? h.cancelAnimationFrame : clearTimeout)(p), d = 0, _ = T
